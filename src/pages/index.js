@@ -1,18 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
-import {Container, Grid} from "@material-ui/core"
+import {Grid} from "@material-ui/core"
 
 // For Background Image
-import BackgroundImage from 'gatsby-background-image'
-import { graphql } from 'gatsby'
-import '../css/background_img.css'
-import touxiang from '../images/touxiang.jpg'
+import '../css/index.css'
 
-const IndexPage = (props) => (
+const IndexPage = () => (
   <div className="root">
   <Grid container
     spacing={0}
