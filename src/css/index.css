@@ -31,7 +31,9 @@
 .welcome-message p {
     font-style: italic;
     font-family: times;
+    font-size: 200%;
 }
 .welcome-message h1 {
     font-family: "Times New Roman", Times, serif;
+    font-size: 400%;
 }
