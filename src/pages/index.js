@@ -1,5 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
+
+import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import {Container, Grid} from "@material-ui/core"
@@ -7,7 +9,7 @@ import {Container, Grid} from "@material-ui/core"
 // For Background Image
 import BackgroundImage from 'gatsby-background-image'
 import { graphql } from 'gatsby'
-import '../css/index.css'
+import '../css/background_img.css'
 import touxiang from '../images/touxiang.jpg'
 
 const IndexPage = (props) => (
