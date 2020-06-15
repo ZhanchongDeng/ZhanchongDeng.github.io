@@ -16,23 +16,11 @@ const IndexPage = (props) => (
   <div>
   <Grid container
     spacing={2}
+    className="page"
   >
     <Grid item
       xs={12}
     >
-       {/* <BackgroundImage 
-        className="selfie"
-        fluid={props.data.indexImage.childImageSharp.fluid}
-       >
-         <div className="black-overlay">
-           <div className="welcome-message">
-            <p>Hey, I'm</p>
-            <h1>
-              &mdash;Bobby Deng&mdash;
-            </h1>
-           </div>
-         </div>
-       </BackgroundImage> */}
       <div className="selfie">
         <div className="black-overlay">
           <div className="welcome-message">
