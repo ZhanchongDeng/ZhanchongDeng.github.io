@@ -1,6 +1,7 @@
 .page {
     margin:0;
-    width:'100%';
+    max-width: 1800;
+    width:100%;
 }
 .selfie {
     background-image: url(../images/touxiang3.jpg);
@@ -9,8 +10,8 @@
     height: 100vh;
     background-size: cover;
     background-position: center;
-    /* background-repeat: no-repeat; */
-    margin-bottom: 10px;
+    /* background-repeat: no-repeat;
+    margin-bottom: 10px; */
 }
 
 .black-overlay {

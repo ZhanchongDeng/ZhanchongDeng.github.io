@@ -13,15 +13,14 @@ import '../css/background_img.css'
 import touxiang from '../images/touxiang.jpg'
 
 const IndexPage = (props) => (
-  <div>
+  <div className="root">
   <Grid container
-    spacing={2}
-    className="page"
+    spacing={0}
   >
     <Grid item
       xs={12}
+      className="selfie"
     >
-      <div className="selfie">
         <div className="black-overlay">
           <div className="welcome-message">
             <p>Hey, I'm</p>
@@ -30,17 +29,18 @@ const IndexPage = (props) => (
             </h1>
           </div>
         </div>
-      </div>
     </Grid>
 
     <Grid item
-      xs={6}
+      xs={12}
+      md={6}
     >
       <p>Coming soon...</p>
     </Grid>
 
     <Grid item
-      xs={6}
+      xs={12}
+      md={6}
     >
       <p>Coming soon...</p>
     </Grid>
