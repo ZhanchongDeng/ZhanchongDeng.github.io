@@ -8,15 +8,21 @@
 <ul>
   <li>
     <p>Gatsby - static websites manager for noobs.</p>
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="10%", height="10%" />
+    <a href="https://www.gatsbyjs.org/">
+      <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="10%", height="10%" />
+    </a>
   </li>
   <li>
     <p>React - it's (mostly) the only way.</p>
-    <img alt="react" src="https://cdn.worldvectorlogo.com/logos/react.svg", width="10%", height="10%" />
+    <a href="https://reactjs.org/">
+      <img alt="react" src="https://cdn.worldvectorlogo.com/logos/react.svg", width="10%", height="10%" />
+    </a>
   </li>
   <li>
     <p>Material-ui - for ppl who can't draw.</p>
-    <img alt="material-ui" src="https://opencollective-production.s3.us-west-1.amazonaws.com/ada636e0-395b-11ea-8ab7-b3f0317bbc7c.png", width="10%", height="10%" >
+    <a href="https://material-ui.com/">
+      <img alt="material-ui" src="https://opencollective-production.s3.us-west-1.amazonaws.com/ada636e0-395b-11ea-8ab7-b3f0317bbc7c.png", width="10%", height="10%" >
+    </a>
   </li>
 </ul>
 <!-- AUTO-GENERATED-CONTENT:END -->
