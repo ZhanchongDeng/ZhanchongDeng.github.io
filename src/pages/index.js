@@ -63,7 +63,7 @@ const IndexPage = () => (
     </Grid>
     
     <Grid container
-      spacing={2}
+      spacing={0}
     >
       
       <Grid item
@@ -71,7 +71,7 @@ const IndexPage = () => (
         md={6}
         className="preview_card"
       >
-        <h2>What I have done</h2>
+        <h2>Here's what I have done</h2>
         <p>Coming Soon...</p>
       </Grid>
 
@@ -80,9 +80,28 @@ const IndexPage = () => (
         md={6}
         className="preview_card"
       >
-        <h2>What I can do</h2>
+        <h2>Here's what I am good at</h2>
         <p>Coming Soon...</p>
       </Grid>
+
+      <Grid item
+        xs={12}
+        md={6}
+        className="preview_card"
+      >
+        <h2>Here's my education</h2>
+        <p>Coming Soon...</p>
+      </Grid>
+
+      <Grid item
+        xs={12}
+        md={6}
+        className="preview_card"
+      >
+        <h2>Here's how you reach me</h2>
+        <p>Coming Soon...</p>
+      </Grid>
+
     </Grid>
 
   </div>

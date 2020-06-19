@@ -38,7 +38,7 @@ h1, h2, h3, h4, p, ul {
 }
 .welcome-message h1 {
     font-family: "Times New Roman", Times, serif;
-    font-size:10vw;
+    font-size:8vw;
 }
 
 .section_title {
@@ -53,15 +53,17 @@ h1, h2, h3, h4, p, ul {
 .face {
     margin-top: 10vh;
     margin-bottom: 5vh;
-    width: 50%;
+    width: 40%;
     border-radius:20%;
 }
 .text {
     margin-bottom:10vh;
 }
 .introduction p {
-    margin: 0;
+    margin: 2.5vh;
+    line-height: 5vh;
     width: 70%;
+    font-size: 2.5vw;
 }
 
 .preview_card {
