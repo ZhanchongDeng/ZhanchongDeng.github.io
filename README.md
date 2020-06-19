@@ -7,6 +7,6 @@
 <h1 align="center">
   Personal Website using Gatsby
 </h1>
-
-<p>In development, visit <a ref="ZhanchongDeng.github.io">ZhanchongDeng.github.io</a> to see the newest published version of this website.</p>
+<p>This is a personal portfolio/resume website developed by Zhanchong Deng.</p>
+<p>This site is still in development, visit <a href="ZhanchongDeng.github.io">ZhanchongDeng.github.io</a> to see the newest published version of this website.</p>
 <!-- AUTO-GENERATED-CONTENT:END -->
