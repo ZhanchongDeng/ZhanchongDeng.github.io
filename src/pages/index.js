@@ -19,7 +19,7 @@ const IndexPage = () => (
 
   <div className="root">
     <Grid container item >
-      <div className="selfie">
+      <div className="selfie" style={{"background-attachment": window.screen.width > 2000 ? "fixed":"scroll"}}>
           <div className="black-overlay">
             <div className="welcome-message">
               <p>Hey, I'm</p>
@@ -71,7 +71,7 @@ const IndexPage = () => (
         md={6}
         className="preview_card"
       >
-        <h2>Here's what I have done</h2>
+        <h2>Work/Project Timeline</h2>
         <p>Coming Soon...</p>
       </Grid>
 
@@ -80,7 +80,7 @@ const IndexPage = () => (
         md={6}
         className="preview_card"
       >
-        <h2>Here's what I am good at</h2>
+        <h2>Skills Scale</h2>
         <p>Coming Soon...</p>
       </Grid>
 
@@ -89,7 +89,7 @@ const IndexPage = () => (
         md={6}
         className="preview_card"
       >
-        <h2>Here's my education</h2>
+        <h2>Education Background</h2>
         <p>Coming Soon...</p>
       </Grid>
 
@@ -98,7 +98,7 @@ const IndexPage = () => (
         md={6}
         className="preview_card"
       >
-        <h2>Here's how you reach me</h2>
+        <h2>Contact info</h2>
         <p>Coming Soon...</p>
       </Grid>
 

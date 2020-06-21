@@ -8,7 +8,6 @@ h1, h2, h3, h4, p, ul {
 }
 .selfie {
     background-image: url(../images/touxiang3.jpg);
-    background-attachment: fixed;
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -74,6 +73,7 @@ h1, h2, h3, h4, p, ul {
     font-family: "brandon-grotesque","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande","sans-serif";
     font-weight: lighter;
     background: #c38d9e;
+    text-align: center;
 }
 .preview_card p {
     text-align: center;
