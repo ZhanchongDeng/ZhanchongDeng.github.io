@@ -15,97 +15,109 @@ const linkStyle = {
   textDecoration: 'none',
 }
 
-const IndexPage = () => (
-
-  <div className="root">
-    <Grid container item >
-      <div className="selfie" style={{"background-attachment": window.screen.width > 2000 ? "fixed":"scroll"}}>
-          <div className="black-overlay">
-            <div className="welcome-message">
-              <p>Hey, I'm</p>
-              <h1>
-                &mdash;Bobby Deng&mdash;
-              </h1>
-            </div>
+class IndexPage extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      isSmall: false,
+    };
+  }
+  componentDidMount() {
+    this.setState({isSmall: window.screen.width > 1025})
+  }
+  render() {
+    return (
+      <div className="root">
+        <Grid container item >
+          <div className="selfie" style={{"background-attachment": this.state.isSmall ? "fixed":"scroll"}}>
+              <div className="black-overlay">
+                <div className="welcome-message">
+                  <p>Hey, I'm</p>
+                  <h1>
+                    &mdash;Bobby Deng&mdash;
+                  </h1>
+                </div>
+              </div>
           </div>
+        </Grid>
+
+        <Grid container
+          spacing={0}
+        >
+          <Grid item
+            xs={12}
+            className="section_title"
+          >
+            <h2>Who am I?</h2>
+          </Grid>
+
+          <Grid item
+            xs={12}
+            className="face"
+            align="center"
+          >
+            <div className="circular-crop">
+              <img className="face" src={face} alt='face of bob' />
+            </div>
+          </Grid>
+          <Grid item
+            xs={12}
+            className="introduction"
+            align="center"
+          >
+            <div className="text">
+            <p>I am a <strong>full-stack developer</strong> and a <strong>data analyst with various</strong> <Link to = '404' style={linkStyle}>project/research experience.</Link></p>
+            <p> It is my passion to create applications/data analyzations to inspire others.</p>
+            </div>
+          </Grid>
+        </Grid>
+        
+        <Grid container
+          spacing={0}
+        >
+          
+          <Grid item
+            xs={12}
+            md={6}
+            className="preview_card"
+          >
+            <h2>Work/Project Timeline</h2>
+            <p>Coming Soon...</p>
+          </Grid>
+
+          <Grid item
+            xs={12}
+            md={6}
+            className="preview_card"
+          >
+            <h2>Skills Scale</h2>
+            <p>Coming Soon...</p>
+          </Grid>
+
+          <Grid item
+            xs={12}
+            md={6}
+            className="preview_card"
+          >
+            <h2>Education Background</h2>
+            <p>Coming Soon...</p>
+          </Grid>
+
+          <Grid item
+            xs={12}
+            md={6}
+            className="preview_card"
+          >
+            <h2>Contact info</h2>
+            <p>Coming Soon...</p>
+          </Grid>
+
+        </Grid>
+
       </div>
-    </Grid>
-
-    <Grid container
-      spacing={0}
-    >
-      <Grid item
-        xs={12}
-        className="section_title"
-      >
-        <h2>Who am I?</h2>
-      </Grid>
-
-      <Grid item
-        xs={12}
-        className="face"
-        align="center"
-      >
-        <div className="circular-crop">
-          <img className="face" src={face} alt='face of bob' />
-        </div>
-      </Grid>
-      <Grid item
-        xs={12}
-        className="introduction"
-        align="center"
-      >
-        <div className="text">
-        <p>I am a <strong>full-stack developer</strong> and a <strong>data analyst with various</strong> <Link to = '404' style={linkStyle}>project/research experience.</Link></p>
-        <p> It is my passion to create applications/data analyzations to inspire others.</p>
-        </div>
-      </Grid>
-    </Grid>
-    
-    <Grid container
-      spacing={0}
-    >
-      
-      <Grid item
-        xs={12}
-        md={6}
-        className="preview_card"
-      >
-        <h2>Work/Project Timeline</h2>
-        <p>Coming Soon...</p>
-      </Grid>
-
-      <Grid item
-        xs={12}
-        md={6}
-        className="preview_card"
-      >
-        <h2>Skills Scale</h2>
-        <p>Coming Soon...</p>
-      </Grid>
-
-      <Grid item
-        xs={12}
-        md={6}
-        className="preview_card"
-      >
-        <h2>Education Background</h2>
-        <p>Coming Soon...</p>
-      </Grid>
-
-      <Grid item
-        xs={12}
-        md={6}
-        className="preview_card"
-      >
-        <h2>Contact info</h2>
-        <p>Coming Soon...</p>
-      </Grid>
-
-    </Grid>
-
-  </div>
-)
+    )
+  }
+}
 
 export default IndexPage
 
