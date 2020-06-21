@@ -16,17 +16,20 @@ const linkStyle = {
 }
 
 const IndexPage = () => (
+
   <div className="root">
-    <div className="selfie">
-        <div className="black-overlay">
-          <div className="welcome-message">
-            <p>Hey, I'm</p>
-            <h1>
-              &mdash;Bobby Deng&mdash;
-            </h1>
+    <Grid container item >
+      <div className="selfie">
+          <div className="black-overlay">
+            <div className="welcome-message">
+              <p>Hey, I'm</p>
+              <h1>
+                &mdash;Bobby Deng&mdash;
+              </h1>
+            </div>
           </div>
-        </div>
-    </div>
+      </div>
+    </Grid>
 
     <Grid container
       spacing={0}
