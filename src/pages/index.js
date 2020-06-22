@@ -29,7 +29,7 @@ class IndexPage extends React.Component {
     return (
       <div className="root">
         <Grid container item >
-          <div className="selfie" style={{"backgroundAttachment": this.state.isSmall ? "fixed":"scroll"}}>
+          <div className="selfie" style={{"background-attachment": this.state.isSmall ? "fixed":"scroll"}}>
               <div className="black-overlay">
                 <div className="welcome-message">
                   <p>Hey, I'm</p>
