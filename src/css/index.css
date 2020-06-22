@@ -59,7 +59,7 @@ h1, h2, h3, h4, p, ul {
 }
 .introduction p {
     margin: 2.5vh;
-    line-height: 5vh;
+    line-height: 3vw;
     width: 70%;
     font-size: 2.5vw;
 }
@@ -69,11 +69,13 @@ h1, h2, h3, h4, p, ul {
 }
 
 .preview_card h2 {
-    margin:4vh;
+    margin: 2vh;
+    padding: 2vh;
+    padding-left: 4vh;
     font-family: "brandon-grotesque","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande","sans-serif";
     font-weight: lighter;
     background: #c38d9e;
-    text-align: center;
+    text-align: left;
 }
 .preview_card p {
     text-align: center;
