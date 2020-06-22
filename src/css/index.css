@@ -1,10 +1,12 @@
-h1, h2, h3, h4, p, ul {
-    color: white;
-}
+
 .root {
     margin:0;
     width:100%;
     background: #5d5c61;
+}
+
+.root h1, h2, h3, h4, p, ul {
+    color: white;
 }
 .selfie {
     background-image: url(../images/touxiang3.jpg);
@@ -58,8 +60,8 @@ h1, h2, h3, h4, p, ul {
     margin-bottom:10vh;
 }
 .introduction p {
-    margin: 2.5vh;
-    line-height: 5vh;
+    margin: 3vw;
+    line-height: 2.5vw;
     width: 70%;
     font-size: 2.5vw;
 }
@@ -69,7 +71,8 @@ h1, h2, h3, h4, p, ul {
 }
 
 .preview_card h2 {
-    margin:4vh;
+    padding:2vh;
+    margin: 2vh;
     font-family: "brandon-grotesque","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande","sans-serif";
     font-weight: lighter;
     background: #c38d9e;
