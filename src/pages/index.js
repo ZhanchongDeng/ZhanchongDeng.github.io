@@ -5,6 +5,8 @@ import {Link} from 'gatsby'
 // For Background Image
 import '../css/index.css'
 import face from '../images/bob.jpg'
+import '../css/nav.css'
+import HomeIcon from '@material-ui/icons/Home';
 
 const category = ['Name', 'University', 'Major', 'Expected Graduation date']
 const info = ['Zhanchong Deng', 'University of Calfornia, San Diego', 'Computer Science', '06/2022']
@@ -28,6 +30,31 @@ class IndexPage extends React.Component {
   render() {
     return (
       <div className="root">
+        
+        <Grid container >
+          <Grid className = "navbarGrid" item xs={10}>
+            <ul className = "navbar">
+              <li>
+                <Link className = "link" to = '/'>Projects</Link>
+              </li>
+              <li>
+                <Link className = "link" to = '/'>Skills</Link>
+              </li>
+              <li>
+                <Link className = "link" to = '/'>Education</Link>
+              </li>
+              <li>
+                <Link className = "link" to = '/'>Contact</Link>
+              </li>
+            </ul>
+          </Grid>
+          <Grid className = "homeicon-container" item xs={2} align = 'center' justify = 'center'>
+            <Link to='/'>
+              <HomeIcon className = "homeicon" style={{ fontSize: '50px', color: 'white' }}/>
+            </Link>
+          </Grid>
+        </Grid>
+
         <Grid container item >
           <div className="selfie" style={{"background-attachment": this.state.isSmall ? "fixed":"scroll"}}>
               <div className="black-overlay">
